@@ -29,10 +29,10 @@
     margin-left: 20px;
   }
   a {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     &:hover {
-      color: rgba(255, 255, 255, 0.8);
+      color: rgba(255, 255, 255, 0.9);
     }
   }
   a[aria-current="page"] {
@@ -88,7 +88,7 @@
       padding: 20px;
     }
     a:hover {
-      background-color: #29121d;
+      background-color: var(--primary-dark);
     }
   }
 }
