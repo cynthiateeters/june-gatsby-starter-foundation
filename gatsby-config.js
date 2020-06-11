@@ -32,11 +32,16 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      /* Remark */
       resolve: `gatsby-transformer-remark`,
       options: {
         gfm: true,
         plugins: [
+          /* NetlifyCmsPaths - Remark Plugin*/
           netlifyCmsPaths,
+          /* - Remark Plugin */
+          `gatsby-remark-autolink-headers`,
+          /* - Remark Plugin */
           `gatsby-remark-reading-time`,
           {
             resolve: `gatsby-remark-images`,
@@ -48,6 +53,7 @@ module.exports = {
               loading: "lazy",
             },
           },
+          /* - Remark Plugin */
           `gatsby-remark-responsive-iframe`,
           {
             resolve: `gatsby-remark-prismjs`,
