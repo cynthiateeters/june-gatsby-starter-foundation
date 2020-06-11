@@ -1,6 +1,7 @@
 {
   "meta": {
     "title": "IDMX Template",
+    "author": "The Author",
     "titleTemplate": "%s",
     "description": "Interface Design & Web Development",
     "siteUrl": "https://inspiring-meitner-3e3910.netlify.app/",
