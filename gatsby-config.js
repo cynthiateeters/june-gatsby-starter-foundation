@@ -41,7 +41,6 @@ module.exports = {
           netlifyCmsPaths,
           /* - Remark Plugin */
           `gatsby-remark-autolink-headers`,
-          /* - Remark Plugin */
           {
             resolve: "gatsby-remark-embed-video",
             options: {
@@ -57,6 +56,23 @@ module.exports = {
                     `https://www.youtube-nocookie.com/embed/${videoId}`,
                 },
               ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
+            },
+          },
+          /* - Remark Plugin */
+          // gatsby-remark-relative-images must
+          // go before gatsby-remark-images
+          {
+            resolve: `gatsby-remark-relative-images`,
+          },
+          /* - Remark Plugin */
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 400,
+              linkImagesToOriginal: true,
             },
           },
           /* - Remark Plugin */
