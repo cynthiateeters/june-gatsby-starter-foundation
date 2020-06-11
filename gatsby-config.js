@@ -16,6 +16,12 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     {
+      resolve: "gatsby-plugin-netlify-cache",
+      options: {
+        cachePublic: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets/`,
