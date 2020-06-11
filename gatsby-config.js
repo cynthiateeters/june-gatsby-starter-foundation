@@ -46,6 +46,29 @@ module.exports = {
         name: `content`,
       },
     },
+    /* fonts */
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Oswald`,
+            subsets: [`latin`],
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Open Sans`,
+            subsets: [`latin-ext`],
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Roboto Mono`,
+            subsets: [`latin-ext`],
+            variants: [`400`],
+          },
+        ],
+      },
+    },
     /* favicon */
     {
       resolve: `gatsby-plugin-favicon`,
