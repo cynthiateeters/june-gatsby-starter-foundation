@@ -52,12 +52,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Oswald`,
-            subsets: [`latin`],
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Open Sans`,
+            family: `Roboto`,
             subsets: [`latin-ext`],
             variants: [`400`, `700`],
           },

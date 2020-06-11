@@ -5,9 +5,9 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 :root {
-  --font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Avenir Next", avenir, "Helvetica Neue", Helvetica,
-    Ubuntu, Roboto, Noto, Segoe ui, Arial, sans-serif;
-  --font-family-display: Oswald, -apple-system, BlinkMacSystemFont, "Avenir Next", avenir, "Helvetica Neue", Helvetica,
+  --font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Avenir Next", avenir, "Helvetica Neue", Helvetica, Ubuntu,
+    Roboto, Noto, Segoe ui, Arial, sans-serif;
+  --font-family-display: "Roboto", -apple-system, BlinkMacSystemFont, "Avenir Next", avenir, "Helvetica Neue", Helvetica,
     Ubuntu, Roboto, Noto, Segoe Ui, Arial, sans-serif;
   --font-family-mono: "Roboto Mono", Menlo, Consolas, Monaco, "Liberation Mono", Lucida Console, monospace;
   --font-size-small: 12px;
