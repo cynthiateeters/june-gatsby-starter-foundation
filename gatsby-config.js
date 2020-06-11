@@ -46,6 +46,15 @@ module.exports = {
         name: `content`,
       },
     },
+    /* SVG */
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/,
+        },
+      },
+    },
     /* fonts */
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
