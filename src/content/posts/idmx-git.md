@@ -4,7 +4,7 @@ title: "IDMX 225 Git Commands"
 slug: git
 date: 2020-01-19T00:00:00.000Z
 description: Using Git inside VS Code
-featuredImage: ./vsc-git.png
+featuredImage: /assets/vsc-git.png
 ---
 
 ## VS Code Git Activity
@@ -29,16 +29,16 @@ The main features are:
 
 To use Git inside VS Code, look for its icon on the left in the Activity Bar.
 
-![VS Code Git Activity Icon](./vsc-git.png)
+![VS Code Git Activity Icon](/assets/vsc-git.png)
 
 ## Commit
 
 When you select the Git icon, it displays the Git Commit input box. Notice the below example image, there is a number `5` circled over the icon. This shows that there are 5 files that have changed (created, edited, or deleted) and are ready to be committed. Write a commit message in the input box and then select the check mark icon to complete the commit.
 
-![Git Activity Icon](./vsc-commit.png)
+![Git Activity Icon](/assets/vsc-commit.png)
 
 ## Push
 
-Once files are committed, they should be pushed back to the remote repository. This is an important step because it takes advantage of the GitHubub's cloud storage.
+Once files are committed, they should be pushed back to the remote repository. This is an important step because it takes advantage of the GitHub's cloud storage.
 
 To push your commit, select the 3-dot pull down menu and select `push`. If the local repository is correctly connected to the remote repository on GitHub, the changed files will be uploaded. It is best to have your GitHub repository open in a browser window. Refresh the page and make sure the the latest commit is shown.

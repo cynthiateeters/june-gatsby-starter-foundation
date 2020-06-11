@@ -1,8 +1,9 @@
 ---
 template: blog-post
+title: "Markdown: Syntax"
 slug: markdown
 date: 2020-05-09T05:53:16.102Z
-title: "Markdown: Syntax"
+description: Markdown tutorial
 featuredImage: /assets/mike-dorner-sf_1ZDA1YFw-unsplash.jpg
 ---
 
@@ -280,6 +281,17 @@ it's also easy to use Markdown to write about Markdown's own syntax.
 tell application "Foo"
     beep
 end tell
+```
+
+And here is JavaScript
+
+```js
+function getRectArea(width, height) {
+  if (width > 0 && height > 0) {
+    return width * height;
+  }
+  return 0;
+}
 ```
 
 ## Span Elements
