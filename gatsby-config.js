@@ -21,6 +21,17 @@ module.exports = {
         cachePublic: true,
       },
     },
+    /* - next plugin */
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `tomato`,
+        // Disable the loading spinner.
+        showSpinner: false,
+      },
+    },
+    /* - next plugin */
     {
       resolve: `gatsby-source-filesystem`,
       options: {
