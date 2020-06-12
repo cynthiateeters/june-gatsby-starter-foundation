@@ -3,7 +3,7 @@ template: blog-post
 title: "Windows 10 Development Environment - Screencasts"
 slug: win-10
 date: "2020-03-17"
-featuredImage: /assets/alex-zr48yvupk04-unsplash.jpg
+featuredImage: /assets/windows-10-1535765_640.jpg
 ---
 
 ## Install VS Code

@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: "IDMX 225 Git Commands"
+title: "Git Commands"
 slug: git
 date: 2020-01-19T00:00:00.000Z
 description: Using Git inside VS Code

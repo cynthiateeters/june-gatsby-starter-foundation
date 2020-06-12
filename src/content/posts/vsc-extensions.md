@@ -4,6 +4,7 @@ title: "Visual Studio Code - Extensions"
 slug: vscode-ext
 description: "List of extensions to install in your VS Code app."
 date: "2020-03-17"
+featuredImage: "/assets/git-extensions.png"
 ---
 
 ## Installation
