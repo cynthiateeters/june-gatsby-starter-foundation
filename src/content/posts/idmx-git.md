@@ -31,6 +31,12 @@ To use Git inside VS Code, look for its icon on the left in the Activity Bar.
 
 ![VS Code Git Activity Icon](/assets/vsc-git.png)
 
+### Clone
+
+```shell
+git clone repo-link.git .
+```
+
 ## Commit
 
 When you select the Git icon, it displays the Git Commit input box. Notice the below example image, there is a number `5` circled over the icon. This shows that there are 5 files that have changed (created, edited, or deleted) and are ready to be committed. Write a commit message in the input box and then select the check mark icon to complete the commit.
