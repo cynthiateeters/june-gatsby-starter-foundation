@@ -13,3 +13,7 @@ Feel free to ping [@stackrole](stackrole) for help regarding your JAMstack websi
 [stackrole]: https://stackrole.com
 [twitter]: https://twitter.com/stackrole
 [custom-domain]: https://stackrole.com/adding-custom-domain-netlify
+
+### Versions
+
+1.0 - Cynthia Teeters 2020/06/12
